@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Guanyin Back Trajectory </name>
+	<open>1</open>
+	<Style id="traj2">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>blueball.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="traj1">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>redball.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="traj3">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>greenball.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f00ff00</color>
+		</PolyStyle>
+	</Style>
+	<ScreenOverlay>
+		<name>HYSPLIT Information</name>
+		<description>NOAA ARL HYSPLIT Model  http://www.arl.noaa.gov/HYSPLIT_info.php</description>
+		<Icon>
+			<href>logocon.gif</href>
+		</Icon>
+		<overlayXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="1" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	<ScreenOverlay>
+		<name>NOAA</name>
+		<Snippet maxLines="0"></Snippet>
+		<description>National Oceanic and Atmospheric Administration  http://www.noaa.gov</description>
+		<Icon>
+			<href>noaa_google.gif</href>
+		</Icon>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	<Folder>
+		<name>NOAA NWS kml Weather Data</name>
+		<visibility>0</visibility>
+		<description>http://weather.gov/gis/  Click on the link
+to access weather related overlays from the National Weather Service.</description>
+	</Folder>
+	<Folder>
+		<name>NOAA NESDIS kml Smoke/Fire Data</name>
+		<visibility>0</visibility>
+		<description>http://www.ssd.noaa.gov/PS/FIRE/hms.html  Click on the link
+to access wildfire smoke overlays from NOAA NESDIS.</description>
+	</Folder>
+	<Folder>
+		<name>EPA AIRNow Air Quality Index (AQI)</name>
+		<visibility>0</visibility>
+		<description>http://www.epa.gov/airnow/today/airnow.kml  Click on the link
+to access AQI data from EPA. The results will appear in the list below.</description>
+	</Folder>
+	<Folder>
+		<name>499.0 m AMSL Trajectory</name>
+		<open>1</open>
+		<Placemark>
+			<name>499.0 m AMSL Trajectory</name>
+			<LookAt>
+				<longitude>121.1062</longitude>
+				<latitude> 25.0527</latitude>      
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>2000000</range>
+			</LookAt>
+			<styleUrl>#traj1</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>
+121.1062,25.0527,100.
+121.1089,25.0549,100.
+121.1115,25.0571,100.
+121.1140,25.0593,100.
+121.1164,25.0614,100.
+121.1188,25.0636,100.
+121.1211,25.0657,100.
+121.1234,25.0679,100.
+121.1256,25.0700,100.
+121.1278,25.0722,100.
+121.1300,25.0743,100.
+121.1322,25.0765,100.
+121.1343,25.0787,100.
+121.1365,25.0809,100.
+121.1386,25.0831,100.
+121.1407,25.0854,100.
+121.1428,25.0877,100.
+121.1449,25.0900,100.
+121.1471,25.0923,100.
+121.1492,25.0947,100.
+121.1513,25.0970,100.
+121.1534,25.0994,100.
+121.1555,25.1019,100.
+121.1576,25.1043,100.
+121.1598,25.1068,100.
+121.1619,25.1093,100.
+121.1640,25.1118,100.
+121.1662,25.1144,100.
+121.1683,25.1169,100.
+121.1704,25.1195,100.
+121.1726,25.1221,100.
+121.1748,25.1246,100.
+121.1769,25.1272,100.
+121.1791,25.1298,100.
+121.1812,25.1323,100.
+121.1834,25.1349,100.
+121.1855,25.1375,100.
+121.1877,25.1400,100.
+121.1898,25.1424,100.
+121.1920,25.1448,100.
+121.1941,25.1471,100.
+121.1962,25.1495,100.
+121.1983,25.1518,100.
+121.2004,25.1541,100.
+121.2025,25.1563,100.
+121.2045,25.1586,100.
+				</coordinates>
+			</LineString>
+		</Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1318,25.0553</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1086,25.0449</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1109,25.0466</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1249,25.0630</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1357,25.0473</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1281,25.0578</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1204,25.0555</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1277,25.0527</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1264,25.0656</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1243,25.0525</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1387,25.0499</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1377,25.0490</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1256,25.0518</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1343,25.0451</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1258,25.0510</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1190,25.0507</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1303,25.0480</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1318,25.0469</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1366,25.0480</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1173,25.0505</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1223,25.0501</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1201,25.0481</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1135,25.0610</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1320,25.0445</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1308,25.0457</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1307,25.0521</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1144,25.0593</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1099,25.0485</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1039,25.0553</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1232,25.0656</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1208,25.0670</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1223,25.0679</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1027,25.0575</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1152,25.0495</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1127,25.0481</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1083,25.0595</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1159,25.0562</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1062,25.0527</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1247,25.0549</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1175,25.0650</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1094,25.0632</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1006,25.0556</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1334,25.0551</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1293,25.0450</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1235,25.0536</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1209,25.0516</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1227,25.0521</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1351,25.0466</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1278,25.0490</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1285,25.0476</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1256,25.0682</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1272,25.0596</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1214,25.0541</coordinates>
+                                </Point>
+                </Placemark>
+                <Placemark>
+                                <styleUrl>#traj3</styleUrl>
+                                <Point>
+                                        <altitudeMode>absolute</altitudeMode>
+                                        <coordinates>121.1302,25.0569</coordinates>
+                                </Point>
+                </Placemark>
+	</Folder>
+</Document>
+</kml>

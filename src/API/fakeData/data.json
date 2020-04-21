@@ -1,0 +1,333 @@
+{
+    "token": {
+        "token": "xxxxxxxxxxxxxx123456"
+    },
+    "factorys": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX工廠",
+                    "uid": "f1",
+                    "PM25": 10,
+                    "direction": "東北",
+                    "distance": 0.4
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56122088432312,
+                        25.082372862742282
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX有限公司",
+                    "uid": "f2",
+                    "PM25": 16,
+                    "direction": "東北",
+                    "distance": 0.8
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.5682590007782,
+                        25.080478013792003
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "f3",
+                    "PM25": 26,
+                    "direction": "東北",
+                    "distance": 1.7
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56493306159972,
+                        25.07972006599967
+                    ]
+                }
+            }
+        ]
+    },
+    "sensors": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX工廠",
+                    "uid": "1",
+                    "PM25": 10,
+                    "direction": "東北",
+                    "distance": 0.4
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56417131423949,
+                        25.082421448227148
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX有限公司",
+                    "uid": "2",
+                    "PM25": 16,
+                    "direction": "西北",
+                    "distance": 1.2
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56607031822206,
+                        25.080643206918786
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "3",
+                    "PM25": 26
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56246542930603,
+                        25.07963261018322
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX公司",
+                    "uid": "4",
+                    "PM25": 21
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56066298484801,
+                        25.08215908637985
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "5",
+                    "PM25": 21
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.566241979599,
+                        25.083529192049653
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "6",
+                    "PM25": 36
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56823754310606,
+                        25.078349917697608
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "7",
+                    "PM25": 30
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.5618109703064,
+                        25.081197088128913
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX有限公司",
+                    "uid": "8",
+                    "PM25": 21
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56235814094542,
+                        25.084141361966566
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX電子廠",
+                    "uid": "9",
+                    "PM25": 17
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.55996561050415,
+                        25.086201339835608
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX電子廠",
+                    "uid": "10",
+                    "PM25": 11
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56592011451721,
+                        25.086580294252762
+                    ]
+                }
+            }
+        ]
+    },
+    "wind": {
+        "properties": {
+            "name": "XXX",
+            "uuid": "123"
+        },
+        "data": [
+            {
+                "time": "Wed Feb 12 2020 11:34:42 GMT+0800 (台北標準時間)",
+                "spd": 1.747,
+                "dir": 24.25
+            },
+            {
+                "time": "Wed Feb 12 2020 10:37:42 GMT+0800 (台北標準時間)",
+                "spd": 1.743,
+                "dir": 24.26
+            },
+            {
+                "time": "Wed Feb 12 2020 11:40:42 GMT+0800 (台北標準時間)",
+                "spd": 1.744,
+                "dir": 24.22
+            },
+            {
+                "time": "Wed Feb 12 2020 10:43:42 GMT+0800 (台北標準時間)",
+                "spd": 1.748,
+                "dir": 24.26
+            },
+            {
+                "time": "Wed Feb 12 2020 11:46:42 GMT+0800 (台北標準時間)",
+                "spd": 1.742,
+                "dir": 24.31
+            },
+            {
+                "time": "Wed Feb 12 2020 10:49:42 GMT+0800 (台北標準時間)",
+                "spd": 1.736,
+                "dir": 24.29
+            },
+            {
+                "time": "Wed Feb 12 2020 11:52:42 GMT+0800 (台北標準時間)",
+                "spd": 1.73,
+                "dir": 24.41
+            },
+            {
+                "time": "Wed Feb 12 2020 10:55:42 GMT+0800 (台北標準時間)",
+                "spd": 1.76,
+                "dir": 24.38
+            },
+            {
+                "time": "Wed Feb 12 2020 10:58:42 GMT+0800 (台北標準時間)",
+                "spd": 1.74,
+                "dir": 24.41
+            },
+            {
+                "time": "Wed Feb 12 2020 11:01:42 GMT+0800 (台北標準時間)",
+                "spd": 1.7,
+                "dir": 24.38
+            },
+            {
+                "time": "Wed Feb 12 2020 11:04:42 GMT+0800 (台北標準時間)",
+                "spd": 1.77,
+                "dir": 24.46
+            },
+            {
+                "time": "Wed Feb 12 2020 11:07:42 GMT+0800 (台北標準時間)",
+                "spd": 1.74,
+                "dir": 24.4
+            },
+            {
+                "time": "Wed Feb 12 2020 11:10:42 GMT+0800 (台北標準時間)",
+                "spd": 1.68,
+                "dir": 24.4
+            },
+            {
+                "time": "Wed Feb 12 2020 11:13:42 GMT+0800 (台北標準時間)",
+                "spd": 1.71,
+                "dir": 24.8
+            },
+            {
+                "time": "Wed Feb 12 2020 11:16:42 GMT+0800 (台北標準時間)",
+                "spd": 1.715,
+                "dir": 24.4
+            },
+            {
+                "time": "Wed Feb 12 2020 11:19:42 GMT+0800 (台北標準時間)",
+                "spd": 1.721,
+                "dir": 24.6
+            },
+            {
+                "time": "Wed Feb 12 2020 11:22:42 GMT+0800 (台北標準時間)",
+                "spd": 1.718,
+                "dir": 24.16
+            },
+            {
+                "time": "Wed Feb 12 2020 11:25:42 GMT+0800 (台北標準時間)",
+                "spd": 1.69,
+                "dir": 24.18
+            },
+            {
+                "time": "Wed Feb 12 2020 11:28:40 GMT+0800 (台北標準時間)",
+                "spd": 1.71,
+                "dir": 24.21
+            },
+            {
+                "time": "Wed Feb 12 2020 11:31:40 GMT+0800 (台北標準時間)",
+                "spd": 1.69,
+                "dir": 23.8
+            },
+            {
+                "time": "Wed Feb 12 2020 11:34:42 GMT+0800 (台北標準時間)",
+                "spd": 1.72,
+                "dir": 24.32
+            }
+        ]
+    }
+}

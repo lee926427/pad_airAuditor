@@ -1,0 +1,240 @@
+{
+    "sensor": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "內湖",
+                    "uid": "sensor-1",
+                    "PM25": 10,
+                    "VOC": 7.1
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56417131423949,
+                        25.082421448227148
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "西湖國小",
+                    "uid": "2",
+                    "PM25": 16,
+                    "VOC": 6.8
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56607031822206,
+                        25.080643206918786
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XX廣場",
+                    "uid": "3",
+                    "PM25": 26,
+                    "VOC": 5.7
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56246542930603,
+                        25.07963261018322
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX公園",
+                    "uid": "4",
+                    "PM25": 21,
+                    "VOC": 6.8
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56066298484801,
+                        25.08215908637985
+                    ]
+                }
+            }
+        ]
+    },
+    "factory": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX工廠",
+                    "uid": "f1",
+                    "PM25": 10,
+                    "direction": "東北",
+                    "distance": 0.4
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56122088432312,
+                        25.082372862742282
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX有限公司",
+                    "uid": "f2",
+                    "PM25": 16,
+                    "direction": "東北",
+                    "distance": 0.8
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.5682590007782,
+                        25.080478013792003
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "name": "XXX化工",
+                    "uid": "f3",
+                    "PM25": 26,
+                    "direction": "東北",
+                    "distance": 1.7
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        121.56493306159972,
+                        25.07972006599967
+                    ]
+                }
+            }
+        ]
+    },
+    "wind": {
+        "properties": {
+            "name": "XXX",
+            "uuid": "123"
+        },
+        "data": [
+            {
+                "dir": 24.25,
+                "spd": 1.747,
+                "time": 1581474882000
+            },
+            {
+                "dir": 24.26,
+                "spd": 1.743,
+                "time": 1581475062000
+            },
+            {
+                "dir": 24.22,
+                "spd": 1.744,
+                "time": 1581475242000
+            },
+            {
+                "dir": 24.26,
+                "spd": 1.748,
+                "time": 1581475422000
+            },
+            {
+                "dir": 24.31,
+                "spd": 1.742,
+                "time": 1581475602000
+            },
+            {
+                "dir": 24.29,
+                "spd": 1.736,
+                "time": 1581475782000
+            },
+            {
+                "dir": 24.41,
+                "spd": 1.73,
+                "time": 1581475962000
+            },
+            {
+                "dir": 24.38,
+                "spd": 1.76,
+                "time": 1581476142000
+            },
+            {
+                "dir": 24.41,
+                "spd": 1.74,
+                "time": 1581476322000
+            },
+            {
+                "dir": 24.38,
+                "spd": 1.7,
+                "time": 1581476502000
+            },
+            {
+                "dir": 24.46,
+                "spd": 1.77,
+                "time": 1581476682000
+            },
+            {
+                "dir": 24.4,
+                "spd": 1.74,
+                "time": 1581476862000
+            },
+            {
+                "dir": 24.4,
+                "spd": 1.68,
+                "time": 1581477042000
+            },
+            {
+                "dir": 24.8,
+                "spd": 1.71,
+                "time": 1581477222000
+            },
+            {
+                "dir": 24.4,
+                "spd": 1.715,
+                "time": 1581477402000
+            },
+            {
+                "dir": 24.6,
+                "spd": 1.721,
+                "time": 1581477582000
+            },
+            {
+                "dir": 24.16,
+                "spd": 1.718,
+                "time": 1581477762000
+            },
+            {
+                "dir": 24.18,
+                "spd": 1.69,
+                "time": 1581477942000
+            },
+            {
+                "dir": 24.21,
+                "spd": 1.71,
+                "time": 1581478120000
+            },
+            {
+                "dir": 23.8,
+                "spd": 1.69,
+                "time": 1581478300000
+            },
+            {
+                "dir": 24.32,
+                "spd": 1.72,
+                "time": 1581478482000
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.1062,
+            25.0527,
+            100
+          ],
+          [
+            121.1087,
+            25.0546,
+            100
+          ]
+        ]
+      },
+      "properties": {
+        "name": "499.0 m AMSL Trajectory",
+        "styleUrl": "#traj1",
+        "styleHash": "-2f64022b",
+        "stroke": "#ff0000",
+        "stroke-opacity": 1,
+        "stroke-width": 4,
+        "fill": "#ff0000",
+        "fill-opacity": 0.4980392156862745
+      }
+    }
+  ]
+}

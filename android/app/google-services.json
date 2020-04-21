@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1096105064830",
+    "firebase_url": "https://newagent-3bc81.firebaseio.com",
+    "project_id": "newagent-3bc81",
+    "storage_bucket": "newagent-3bc81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096105064830:android:a82bcc3b9b47e64ce7db2f",
+        "android_client_info": {
+          "package_name": "com.pad_airauditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096105064830-99fmpernafgbr659fgm3bif3cqonek1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhGckNB8RBWbW1Rjt4aMoEfXA-6HxOx8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096105064830-99fmpernafgbr659fgm3bif3cqonek1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
